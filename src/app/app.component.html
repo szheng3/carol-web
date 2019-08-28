@@ -1,21 +1,241 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" xmlns="http://www.w3.org/1999/html">
+  <div class="container">
 
-<router-outlet></router-outlet>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item waves-effect border-right">
+          <a class="nav-link" href="#">Contact </a>
+        </li>
+        <li class="nav-item waves-effect border-right">
+          <a class="nav-link" href="#">Log In</a>
+        </li>
+
+        <li class="nav-item waves-effect border-right">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+        <li class="nav-item waves-effect ">
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input class="form-control form-control-sm ml-3" type="text" placeholder="Search"
+               aria-label="Search">
+      </form>
+    </div>
+  </div>
+</nav>
+<section>
+  <div class="image">
+  </div>
+
+</section>
+<section class="bg-light">
+  <div class="container text-center p-2">
+    <div class="row">
+      <div class="col">
+        <h4>Home</h4>
+      </div>
+      <div class="col">
+        <h4>Plan Styles</h4>
+      </div>
+      <div class="col">
+        <h4>Builders</h4>
+      </div>
+      <div class="col">
+        <h4>Products</h4>
+      </div>
+      <div class="col">
+        <h4>Reviews</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-md-9 my-auto">
+        <h4 class="text-warning ">WHO WE ARE</h4>
+        <h3 class="display-4">Modern Homes</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, culpa delectus, dignissimos dolore
+          dolores eos est et facilis illo maiores minus nobis, odio officiis optio perspiciatis quia rem reprehenderit
+          suscipit temporibus ullam unde veritatis vitae? Asperiores debitis ducimus est illo molestias quaerat soluta.
+          Adipisci dolorum, nam quas quibusdam quidem reiciendis!</p>
+        <button class="btn btn-outline-warning waves-effect">LEARN MORE</button>
+      </div>
+
+      <div class="col-md-3">
+        <img src="/assets/pictures/f179deb1d72201b66febea28106c046c.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-light p-5">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h4>Your Reliable Renovation Contractor</h4>
+        <p>We are 100% confident what all our employees have</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <img width="50" src="/assets/icon/licenseicon.svg"/>
+            <h4 class="card-title">Licenses And Insurance</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card z-depth-0">
+          <div class="card-body text-center">
+            <img width="50" src="/assets/icon/licenseicon.svg"/>
+            <h4 class="card-title">Relevant Experience</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <img width="50" src="/assets/icon/licenseicon.svg"/>
+            <h4 class="card-title">Professional Communication</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <img width="50" src="/assets/icon/licenseicon.svg"/>
+            <h4 class="card-title">Verified Reviews</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container text-center p-3">
+    <div class="row">
+      <div class="col">
+        <h3>We'll help throughout your entire renovation</h3>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-4">
+        <img width="70" src="/assets/icon/notebook(1).png"/>
+        <h4 class="mt-3">Setting A Scope And Budget</h4>
+      </div>
+      <div class="col-md-4">
+        <img width="70" src="/assets/icon/search2.png "/>
+        <h4 class="mt-3">Comparing Estimates</h4>
+      </div>
+      <div class="col-md-4">
+        <img width="70" src="/assets/icon/test.png"/>
+        <h4 class="mt-3">Checking In Until Your Project Complete</h4>
+      </div>
+    </div>
+    <button class="btn btn-outline-warning waves-effect">View All</button>
+  </div>
+</section>
+<section>
+  <div class="bg-light layout"></div>
+  <div class="container moveTop">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card z-depth-0">
+          <img height="300" class="card-img-top" src="/assets/pictures/9366ba29d0594fc31cf2e6a05002c3cf.jpg"
+               alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Kitchen Remodeling</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi? Accusamus,
+              architecto dolorum iste necessitatibus quo vel. Ad asperiores, aut beatae blanditiis culpa dolore pariatur
+              quis ratione similique vero.</p>
+            <button class="btn btn-outline-warning waves-effect float-right">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card z-depth-0">
+          <img height="300" class="card-img-top" src="/assets/pictures/6227371ef2fe63bd2f8e259841ac86ad.jpg"
+               alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Bathroom Renovation</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet asperiores
+              autem blanditiis consequatur consequuntur delectus dolorem hic ipsum labore neque porro provident qui
+              quidem rerum sed sit velit voluptas?</p>
+            <button class="btn btn-outline-warning waves-effect float-right">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card z-depth-0">
+          <img height="300" class="card-img-top" src="/assets/pictures/00767990844685afc9a8421312161f43.jpg"
+               alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Flooring</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet, animi, dignissimos
+              distinctio ea facilis, iure libero nam nihil numquam quae quo? Exercitationem iure labore quaerat.
+              Explicabo inventore quam rem.</p>
+            <button class="btn btn-outline-warning waves-effect float-right">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg-light layout"></div>
+  <div class="container moveTop">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card z-depth-0">
+          <img height="300" class="card-img-top" src="/assets/pictures/9366ba29d0594fc31cf2e6a05002c3cf.jpg"
+               alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-center">Painting</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi? Accusamus,
+              architecto dolorum iste necessitatibus quo vel. Ad asperiores, aut beatae blanditiis culpa dolore pariatur
+              quis ratione similique vero.</p>
+            <button class="btn btn-outline-warning waves-effect float-right">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card z-depth-0">
+          <img height="300" class="card-img-top" src="/assets/pictures/6227371ef2fe63bd2f8e259841ac86ad.jpg"
+               alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-center">Complete Remodeling and Renovation</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, amet asperiores
+              autem blanditiis consequatur consequuntur delectus dolorem hic ipsum labore neque porro provident qui
+              quidem rerum sed sit velit voluptas?</p>
+            <button class="btn btn-outline-warning waves-effect float-right">Read More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer class="bg-dark p-4">
+  <div class="container text-white">
+    <div class="row">
+      <div class="col">
+        <h2><i class="fas fa-home mr-2"></i>Modern Homes</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p><i class="fas fa-phone mr-2"></i>0987-777-0001</p>
+        <p><i class="fas fa-mail-bulk mr-2"></i>Modernhomes@gmail.com</p>
+      </div>
+      <div class="col">
+        <p><i class="fas fa-place-of-worship mr-2"></i>2566 Plano.Tx,US</p>
+        <p><i class="fas fa-business-time mr-2"></i>Mon-Sat 9:00am-6:00pm</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
