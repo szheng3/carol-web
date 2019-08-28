@@ -27,3 +27,11 @@
 .mb {
   border-right: white 2px solid;
 }
+
+@media only screen and (max-width: 600px) {
+
+  h4.mb-0{
+    font-size: 1rem;
+  }
+
+}
