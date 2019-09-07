@@ -1,6 +1,7 @@
 # Carol
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+#
+This project was made according to designer Carol's UI.
 
 ## Development server
 
