@@ -1,7 +1,7 @@
 # Carol
 
 # Demo
-[Demo](https://carol-c8fab.firebaseapp.com)
+[Demo](https://szheng3.github.io/carol-web/)
 
 This project was made according to designer Carol's UI.
 ![alt text][logo]
